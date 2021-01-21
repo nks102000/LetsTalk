@@ -6,31 +6,48 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/ic_launcher_background"
-        android:layout_above="@+id/email"
-        android:layout_marginBottom="20dp"
-        android:layout_centerInParent="true"/>
-
-    <EditText
+    <View
+        android:id="@+id/baground"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_margin="5dp"
-        android:id="@+id/email"
-        android:hint="Email"
-        android:background="@drawable/input_box"
-        android:padding="10dp"/>
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="false"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/background" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/email"
-        android:layout_margin="5dp"
-        android:hint="Passward"
-        android:background="@drawable/input_box"
-        android:padding="10dp"/>
+    <View
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/logo" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/login_button"
+        android:layout_margin="25dp"
+        android:background="@drawable/button_white"
+        android:text="Login"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/Register_button"
+        android:layout_margin="25dp"
+        android:background="@drawable/button_brown"
+        android:text="Register"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:textStyle="bold" />
 
 </RelativeLayout>
