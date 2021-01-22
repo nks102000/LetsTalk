@@ -27,10 +27,10 @@
         android:layout_alignParentBottom="true"
         android:id="@+id/login_button"
         android:layout_margin="25dp"
-        android:background="@drawable/button_white"
+        android:background="@drawable/button_darkblue"
         android:text="Login"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:clickable="true"
         android:textStyle="bold" />
@@ -45,7 +45,7 @@
         android:background="@drawable/button_brown"
         android:text="Register"
         android:gravity="center"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:clickable="true"
         android:textStyle="bold" />
