@@ -9,10 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LetsTalk">
-        <activity
-            android:name=".TabAcitivity"
-            android:label="@string/title_activity_tab_acitivity"
-            android:theme="@style/Theme.LetsTalk.NoActionBar"></activity>
+        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ChatActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
